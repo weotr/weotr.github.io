@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on weotr</title>
-        <link>weotr.github.io/en/categories/</link>
+        <link>https://weotr.github.io/weotr.github.io/en/categories/</link>
         <description>Recent content in Categories on weotr</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>zh-CN</language><atom:link href="weotr.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
+        <language>zh-CN</language><atom:link href="https://weotr.github.io/weotr.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

@@ -2,110 +2,110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://weotr.github.io/weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2022-04-19T13:33:08+08:00</lastmod>
   </url><url>
-    <loc>weotr.github.io/post/</loc>
+    <loc>https://weotr.github.io/weotr.github.io/post/</loc>
     <lastmod>2022-04-19T13:33:08+08:00</lastmod>
   </url><url>
-    <loc>weotr.github.io/</loc>
+    <loc>https://weotr.github.io/weotr.github.io/</loc>
     <lastmod>2022-04-19T13:33:08+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="weotr.github.io/en/"
+                href="https://weotr.github.io/weotr.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="weotr.github.io/"
+                href="https://weotr.github.io/weotr.github.io/"
                 />
   </url><url>
-    <loc>weotr.github.io/page/</loc>
+    <loc>https://weotr.github.io/weotr.github.io/page/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="weotr.github.io/en/page/"
+                href="https://weotr.github.io/weotr.github.io/en/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="weotr.github.io/page/"
+                href="https://weotr.github.io/weotr.github.io/page/"
                 />
   </url><url>
-    <loc>weotr.github.io/archives/</loc>
+    <loc>https://weotr.github.io/weotr.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="weotr.github.io/en/archives/"
+                href="https://weotr.github.io/weotr.github.io/en/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="weotr.github.io/archives/"
+                href="https://weotr.github.io/weotr.github.io/archives/"
                 />
   </url><url>
-    <loc>weotr.github.io/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://weotr.github.io/weotr.github.io/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="weotr.github.io/en/about/"
+                href="https://weotr.github.io/weotr.github.io/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="weotr.github.io/%E5%85%B3%E4%BA%8E/"
+                href="https://weotr.github.io/weotr.github.io/%E5%85%B3%E4%BA%8E/"
                 />
   </url><url>
-    <loc>weotr.github.io/categories/</loc>
+    <loc>https://weotr.github.io/weotr.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="weotr.github.io/en/categories/"
+                href="https://weotr.github.io/weotr.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="weotr.github.io/categories/"
+                href="https://weotr.github.io/weotr.github.io/categories/"
                 />
   </url><url>
-    <loc>weotr.github.io/tags/</loc>
+    <loc>https://weotr.github.io/weotr.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="weotr.github.io/en/tags/"
+                href="https://weotr.github.io/weotr.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="weotr.github.io/tags/"
+                href="https://weotr.github.io/weotr.github.io/tags/"
                 />
   </url><url>
-    <loc>weotr.github.io/%E9%93%BE%E6%8E%A5/</loc>
+    <loc>https://weotr.github.io/weotr.github.io/%E9%93%BE%E6%8E%A5/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="weotr.github.io/en/links/"
+                href="https://weotr.github.io/weotr.github.io/en/links/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="weotr.github.io/%E9%93%BE%E6%8E%A5/"
+                href="https://weotr.github.io/weotr.github.io/%E9%93%BE%E6%8E%A5/"
                 />
   </url><url>
-    <loc>weotr.github.io/search/</loc>
+    <loc>https://weotr.github.io/weotr.github.io/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="weotr.github.io/en/search/"
+                href="https://weotr.github.io/weotr.github.io/en/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="weotr.github.io/search/"
+                href="https://weotr.github.io/weotr.github.io/search/"
                 />
   </url>
 </urlset>

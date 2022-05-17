@@ -1,4 +1,4 @@
-baseurl: weotr.github.io
+baseurl: https://weotr.github.io/weotr.github.io
 languageCode: zh-CN
 theme: hugo-theme-stack
 paginate: 5
