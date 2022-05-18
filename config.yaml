@@ -1,18 +1,18 @@
 baseurl: https://weotr.github.io/
-languageCode: zh-CN
+languageCode: en-US
 theme: hugo-theme-stack
 paginate: 5
 title: weotr's blog
 
 languages:
-    en:
-        languageName: English
-        title: weotr
-        weight: 2
     zh-cn:
         languageName: 中文
         title: weotr
         weight: 1
+    en:
+        languageName: English
+        title: weotr
+        weight: 2
     #ar:
     #    languageName: عربي
     #    languagedirection: rtl
@@ -194,19 +194,19 @@ params:
 menu:
     main:
         - identifier: home
-          name: Home
+          name: 首页
           url: /
           weight: -100
           params:
             icon: home
-            newTab: true
+            newTab: false
         - identifier: QQ
           name: 和我在线交流
           url: http://sighttp.qq.com/authd?IDKEY=69dfe27437a5cf09cc8849e3436aaca69b7df2f123ebf9ac
           weight: -40
           params:
             icon: qq
-            newTab: true
+            newTab: false
 
     social:
         - identifier: github
@@ -240,7 +240,7 @@ markup:
     tableOfContents:
         endLevel: 4
         ordered: true
-        startLevel: 2
+        startLevel: 1
     highlight:
         noClasses: false
         codeFences: true

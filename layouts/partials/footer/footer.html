@@ -20,4 +20,16 @@
         {{ T "footer.builtWith" (dict "Generator" $Generator) | safeHTML }} <br />
         {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy) | safeHTML }}
     </section>
+
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <text class="poem_sentence"></text>
+    <text class="poem_info"></text>
+    <script type="text/javascript">
+    jinrishici.load(function(result) {
+        var sentence = document.querySelector(".poem_sentence")
+        var info = document.querySelector(".poem_info")
+        sentence.innerHTML = result.data.content
+        info.innerHTML = '——' + result.data.origin.author
+    });
+    </script>
 </footer>

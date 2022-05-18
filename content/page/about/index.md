@@ -1,18 +1,16 @@
 ---
-title: 关于
-description: Hugo, the world's fastest framework for building websites
-date: '2019-02-28'
+title: 关于我
+description: 
+date: '2022-05-28'
 aliases:
   - about-us
   - about-hugo
   - contact
 license: CC BY-NC-ND
-lastmod: '2020-10-09'
+lastmod: '2022-05-18'
 menu:
     main: 
         weight: -90
         params:
             icon: user
 ---
-
-This is a test page for i18n support.

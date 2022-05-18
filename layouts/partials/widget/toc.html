@@ -1,4 +1,4 @@
-{{ if (.Context.Scratch.Get "TOCEnabled") }}
+{{ if (.Scratch.Get "hasTOC") }}
     <section class="widget archives">
         <div class="widget-icon">
             {{ partial "helper/icon" "hash" }}
@@ -6,7 +6,7 @@
         <h2 class="widget-title section-title">{{ T "article.tableOfContents" }}</h2>
         
         <div class="widget--toc">
-            {{ .Context.TableOfContents }}
+            {{ .TableOfContents }}
         </div>
     </section>
 {{ end }}
