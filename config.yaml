@@ -1,8 +1,8 @@
-baseurl: https://weotr.github.io/weotr.github.io
+baseurl: https://weotr.github.io/
 languageCode: zh-CN
 theme: hugo-theme-stack
 paginate: 5
-title: weotrblog
+title: weotr's blog
 
 languages:
     en:
@@ -192,20 +192,34 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -100
+          params:
+            icon: home
+            newTab: true
+        - identifier: QQ
+          name: 和我在线交流
+          url: http://sighttp.qq.com/authd?IDKEY=69dfe27437a5cf09cc8849e3436aaca69b7df2f123ebf9ac
+          weight: -40
+          params:
+            icon: qq
+            newTab: true
 
     social:
         - identifier: github
           name: GitHub
           url: https://github.com/weotr
           params:
-              icon: brand-github
+              icon: github
 
         - identifier: weibo
           name: weibo
           url: https://weibo.com/7300224008/profile
           params:
-              icon: brand-twitter
+              icon: weibo
 
 related:
     includeNewer: true

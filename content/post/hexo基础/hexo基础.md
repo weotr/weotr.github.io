@@ -8,6 +8,8 @@ license:
 hidden: false
 comments: true
 draft: false
+categories: ['hexo']
+tags: ['hexo']
 ---
 ###  · 相关工具
 

@@ -7,5 +7,7 @@ math:
 license: 
 hidden: false
 comments: true
+categories: ['']
+tags: ['']
 draft: true
 ---
