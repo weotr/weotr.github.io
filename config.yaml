@@ -9,7 +9,7 @@ languages:
         languageName: 中文
         title: weotr
         weight: 1
-    en:
+    #en:
         languageName: English
         title: weotr
         weight: 2
@@ -194,14 +194,14 @@ params:
 menu:
     main:
         - identifier: home
-          name: 首页
+          name: Home
           url: /
           weight: -100
           params:
             icon: home
             newTab: false
         - identifier: QQ
-          name: 和我在线交流
+          name: chating-online
           url: http://sighttp.qq.com/authd?IDKEY=69dfe27437a5cf09cc8849e3436aaca69b7df2f123ebf9ac
           weight: -40
           params:
@@ -220,6 +220,12 @@ menu:
           url: https://weibo.com/7300224008/profile
           params:
               icon: weibo
+
+        - identifier: douban
+          name: douban
+          url: https://www.douban.com/people/238008026/?_i=2879977orfMjmC
+          params:
+              icon: douban
 
 related:
     includeNewer: true
