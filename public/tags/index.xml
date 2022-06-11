@@ -6,7 +6,23 @@
         <description>Recent content in 分类名 on weotr</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-US</language>
-        <lastBuildDate>Tue, 17 May 2022 19:46:18 +0800</lastBuildDate><atom:link href="https://weotr.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 02 Jun 2022 17:11:34 +0800</lastBuildDate><atom:link href="https://weotr.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>memo</title>
+        <link>https://weotr.github.io/tags/memo/</link>
+        <pubDate>Thu, 02 Jun 2022 17:11:34 +0800</pubDate>
+        
+        <guid>https://weotr.github.io/tags/memo/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>latex</title>
+        <link>https://weotr.github.io/tags/latex/</link>
+        <pubDate>Sun, 29 May 2022 14:40:08 +0800</pubDate>
+        
+        <guid>https://weotr.github.io/tags/latex/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>markdown</title>
         <link>https://weotr.github.io/tags/markdown/</link>
         <pubDate>Tue, 17 May 2022 19:46:18 +0800</pubDate>
@@ -20,6 +36,14 @@
         <pubDate>Tue, 17 May 2022 19:46:18 +0800</pubDate>
         
         <guid>https://weotr.github.io/tags/vscode/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>hugo</title>
+        <link>https://weotr.github.io/tags/hugo/</link>
+        <pubDate>Tue, 17 May 2022 19:37:00 +0800</pubDate>
+        
+        <guid>https://weotr.github.io/tags/hugo/</guid>
         <description></description>
         </item>
         <item>

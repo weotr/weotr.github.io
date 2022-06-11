@@ -1,0 +1,3 @@
+[submodule "themes/hugo-iframe"]
+	path = themes/hugo-iframe
+	url = https://github.com/ericswpark/hugo-iframe.git

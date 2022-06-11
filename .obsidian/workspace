@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "069b042f6957c1c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a8f664f6ae4fd6b",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c1c9ee8c0727162",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ac3f99066b41883",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efec757575b157b5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b66bbaceacd0421c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1bbfac773439d891",
+    "type": "split",
+    "children": [
+      {
+        "id": "f470bf08f6a15bfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8055a5723ec7cae4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8a8f664f6ae4fd6b",
+  "lastOpenFiles": [
+    "content/post/原子核物理.md",
+    "content/post/hugo基础.md",
+    "content/categories/hexo/_index.md",
+    "content/page/archives/index.md",
+    "content/categories/hugo/_index.md",
+    "content/categories/hexo/1.png",
+    "content/post/latex速查表.md",
+    "content/post/markdown语法.md",
+    "content/categories/markdown/_index.md"
+  ]
+}

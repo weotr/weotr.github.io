@@ -1,6 +1,6 @@
 baseurl: https://weotr.github.io/
 languageCode: en-US
-theme: hugo-theme-stack
+theme: ["hugo-iframe", "hugo-theme-stack"]
 paginate: 5
 title: weotr's blog
 
@@ -255,3 +255,4 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+
