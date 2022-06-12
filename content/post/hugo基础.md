@@ -44,6 +44,8 @@ hugo不支持iframe嵌入，需要使用shortcode方式设置：
 
 使用obsidian中convert url to iframe插件：`Alt+I`快捷键到网址上
 
+test1
+
 
 
 

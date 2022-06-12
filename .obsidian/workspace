@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8a8f664f6ae4fd6b",
+        "id": "e92943344857f367",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "content/post/git操作.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/post/git操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,16 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8a8f664f6ae4fd6b",
+  "active": "e92943344857f367",
   "lastOpenFiles": [
+    "content/post/git操作.md",
+    "content/post/hugo+obsidian.md",
+    "content/post/2022m6d13h7m1s59.md",
+    "content/post/2022m6d13h7m1s13.md",
+    "content/post/2022m6d13h7m0s27.md",
+    "content/post/2022m6d13h6m55s28.md",
+    "content/posts/2022m6d13h6m52s7.md",
+    "obs_scripts/NewBlog.js.md",
     "content/post/原子核物理.md",
-    "content/post/hugo基础.md",
-    "content/categories/hexo/_index.md",
-    "content/page/archives/index.md",
-    "content/categories/hugo/_index.md",
-    "content/categories/hexo/1.png",
-    "content/post/latex速查表.md",
-    "content/post/markdown语法.md",
-    "content/categories/markdown/_index.md"
+    "content/post/hugo基础.md"
   ]
 }

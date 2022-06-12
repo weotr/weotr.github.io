@@ -1,4 +1,6 @@
 [
   "convert-url-to-iframe",
-  "obsidian-hypothesis-plugin"
+  "obsidian-hypothesis-plugin",
+  "quickadd",
+  "obsidian-git"
 ]
