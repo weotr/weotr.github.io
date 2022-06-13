@@ -16,7 +16,6 @@
 &lt;p&gt;&lt;code&gt;sc config i8042prt start= disabled/auto&lt;/code&gt;禁用/开启笔记本键盘，重启生效&lt;/p&gt;
 &lt;h3 id=&#34;materials-studios相关&#34;&gt;Materials Studios相关&lt;/h3&gt;
 &lt;p&gt;键盘输入时页面卡死&amp;ndash;&amp;gt;微软拼音打开兼容性设置&lt;/p&gt;
-&lt;p&gt;测试123&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -145,7 +144,8 @@ $$&lt;/p&gt;
     &gt;https://github.com/ericswpark/hugo-iframe&lt;/a&gt;）&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;{{/&amp;lt;/iframe url=&amp;quot;https://music.163.com/outchain/player?type=2&amp;amp;id=25638827&amp;amp;auto=1&amp;amp;height=66&amp;quot;&amp;gt;}}&lt;/code&gt;(前面两处斜杠防止被渲染)&lt;/p&gt;
 &lt;p&gt;使用obsidian中convert url to iframe插件：&lt;code&gt;Alt+I&lt;/code&gt;快捷键到网址上&lt;/p&gt;
-&lt;p&gt;增加一处内容，test&lt;/p&gt;
+&lt;h2 id=&#34;hugo脚本&#34;&gt;hugo脚本&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$bash deploy.sh&lt;/code&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
