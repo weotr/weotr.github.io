@@ -1,74 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>hexo on weotr</title>
-        <link>https://weotr.github.io/tags/hexo/</link>
-        <description>Recent content in hexo on weotr</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-US</language>
-        <lastBuildDate>Tue, 19 Apr 2022 13:33:08 +0800</lastBuildDate><atom:link href="https://weotr.github.io/tags/hexo/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hexo基础</title>
-        <link>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</link>
-        <pubDate>Tue, 19 Apr 2022 13:33:08 +0800</pubDate>
-        
-        <guid>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</guid>
-        <description>&lt;h3 id=&#34;-相关工具&#34;&gt;· 相关工具&lt;/h3&gt;
-&lt;h5 id=&#34;1安装nodejs&#34;&gt;1、安装node.js&lt;/h5&gt;
-&lt;h5 id=&#34;2安装npm&#34;&gt;2、安装npm&lt;/h5&gt;
-&lt;h5 id=&#34;3安装git&#34;&gt;3、安装git&lt;/h5&gt;
-&lt;h5 id=&#34;4检测安装成功&#34;&gt;4、检测安装成功&lt;/h5&gt;
-&lt;p&gt;打开cmd命令行，分别执行，&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;npm -v&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git --version&lt;/code&gt;
-如果出现版本信息就安装成功&lt;/p&gt;
-&lt;h5 id=&#34;5安装hexo&#34;&gt;5、安装hexo&lt;/h5&gt;
-&lt;p&gt;打开cmd，执行&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;npm install hexo-cli -g&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;等待安装完成，输入
-&lt;code&gt;hexo -v&lt;/code&gt;
-出现版本号则安装成功&lt;/p&gt;
-&lt;h3 id=&#34;-配置远程仓库&#34;&gt;· 配置远程仓库&lt;/h3&gt;
-&lt;h5 id=&#34;1注册github账户add-a-new-repository&#34;&gt;1、注册github账户，add a new repository&lt;/h5&gt;
-&lt;p&gt;格式为&amp;quot;用户名.github.io&amp;quot;，此地址即为网站域名
-pulic类型&lt;/p&gt;
-&lt;p&gt;创建之后，点setting设置远程库，找到Github Pages 点击Automatic page generator&lt;/p&gt;
-&lt;h5 id=&#34;2本地生成ssh并与仓库绑定&#34;&gt;2、本地生成ssh并与仓库绑定&lt;/h5&gt;
-&lt;p&gt;&lt;code&gt;$ cd ~/.ssh #查看本机已存在的ssh&lt;/code&gt;
-如果没有，
-&lt;code&gt;ssh-keygen -t rsa -C &#39;&#39;邮件地址&#39;&#39;&lt;/code&gt;
-3次回车，
-生成一个ssh公钥，找到.ssh文件夹，记事本打开复制.pub文件内容
-github-&amp;gt;设置-&amp;gt;ssh-&amp;gt;将公钥内容复制到key，title随便，保存
-测试是否成功
-&lt;code&gt;$ ssh -T git@github.com #邮件地址不用改&lt;/code&gt;
-输入yes，出现&amp;rsquo;&amp;lsquo;hi ***,You&amp;rsquo;re successfully~&amp;lsquo;&amp;lsquo;则配置成功&lt;/p&gt;
-&lt;p&gt;配置
-&lt;code&gt;$ git config --global user.name &#39;&#39;github用户名&#39;&#39;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;$ git config --global user.email &#39;&#39;邮箱&#39;&#39;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;附：git其他操作（跳过）
-&lt;code&gt;git add&lt;/code&gt;
-&lt;code&gt;git conmmit -m &#39;提交信息&#39;&lt;/code&gt;
-&lt;code&gt;git checkout -b hexo&lt;/code&gt;创建并切换到新分支hexo，默认的master用来部署更新项目
-&lt;code&gt;git push origin hexo&lt;/code&gt;提交后到github把hexo分支设置默认&lt;/p&gt;
-&lt;h3 id=&#34;--将hexo模板放到github&#34;&gt;·  将hexo模板放到github&lt;/h3&gt;
-&lt;p&gt;创建一个文件夹用于存放hexo，进入此文件夹右键git bush here
-使用
-&lt;code&gt;$ npm install hexo --save&lt;/code&gt;
-&lt;code&gt;$ hexo init&lt;/code&gt;
-&lt;code&gt;$ npm install&lt;/code&gt;
-&lt;code&gt;$ hexo g&lt;/code&gt;
-&lt;code&gt;$ hexo s&lt;/code&gt;打开http://localhost:4000即可看到内容
-修改_config.yml&lt;/p&gt;
-&lt;p&gt;langurage: ZH-hans
-deploy:
-type: git
-repo: github上仓库ssh的链接
-branch：main&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;$ npm install hexo-deployer-git -save&lt;/code&gt;  安装远程部署插件&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;$ hexo clean&lt;/code&gt; 清除public及_deploy缓存文件&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;$ hexo d -g&lt;/code&gt; 生成静态页面并部署到GitHub&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hexo on weotr</title><link>https://weotr.github.io/tags/hexo/</link><description>Recent content in hexo on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 19 Apr 2022 13:33:08 +0800</lastBuildDate><atom:link href="https://weotr.github.io/tags/hexo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hexo基础</title><link>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</link><pubDate>Tue, 19 Apr 2022 13:33:08 +0800</pubDate><guid>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</guid><description>· 相关工具 1、安装node.js 2、安装npm 3、安装git 4、检测安装成功 打开cmd命令行，分别执行，
+npm -v
+git --version 如果出现版本信息就安装成功
+5、安装hexo 打开cmd，执行
+npm install hexo-cli -g
+等待安装完成，输入 hexo -v 出现版本号则安装成功
+· 配置远程仓库 1、注册github账户，add a new repository 格式为&amp;quot;用户名.github.io&amp;rdquo;，此地址即为网站域名 pulic类型
+创建之后，点setting设置远程库，找到Github Pages 点击Automatic page generator
+2、本地生成ssh并与仓库绑定 $ cd ~/.ssh #查看本机已存在的ssh 如果没有， ssh-keygen -t rsa -C ''邮件地址'' 3次回车， 生成一个ssh公钥，找到.ssh文件夹，记事本打开复制.pub文件内容 github-&amp;gt;设置-&amp;gt;ssh-&amp;gt;将公钥内容复制到key，title随便，保存 测试是否成功 $ ssh -T git@github.com #邮件地址不用改 输入yes，出现'&amp;lsquo;hi ***,You're successfully~'&amp;lsquo;则配置成功
+配置 $ git config --global user.name ''github用户名''
+$ git config --global user.email ''邮箱''</description></item></channel></rss>
