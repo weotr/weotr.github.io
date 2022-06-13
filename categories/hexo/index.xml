@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hexo on weotr</title><link>https://weotr.github.io/categories/hexo/</link><description>Recent content in hexo on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 08 Feb 2022 01:03:14 -0500</lastBuildDate><atom:link href="https://weotr.github.io/categories/hexo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hexo基础</title><link>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</link><pubDate>Tue, 19 Apr 2022 13:33:08 +0800</pubDate><guid>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</guid><description>· 相关工具 1、安装node.js 2、安装npm 3、安装git 4、检测安装成功 打开cmd命令行，分别执行，
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hexo on weotr</title><link>https://weotr.github.io/categories/hexo/</link><description>Recent content in hexo on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 19 Apr 2022 13:33:08 +0800</lastBuildDate><atom:link href="https://weotr.github.io/categories/hexo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hexo基础</title><link>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</link><pubDate>Tue, 19 Apr 2022 13:33:08 +0800</pubDate><guid>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</guid><description>· 相关工具 1、安装node.js 2、安装npm 3、安装git 4、检测安装成功 打开cmd命令行，分别执行，
 npm -v
 git --version 如果出现版本信息就安装成功
 5、安装hexo 打开cmd，执行
 npm install hexo-cli -g
 等待安装完成，输入 hexo -v 出现版本号则安装成功
-· 配置远程仓库 1、注册github账户，add a new repository 格式为&amp;quot;用户名.github.io&amp;quot;，此地址即为网站域名 pulic类型
+· 配置远程仓库 1、注册github账户，add a new repository 格式为&amp;quot;用户名.github.io&amp;rdquo;，此地址即为网站域名 pulic类型
 创建之后，点setting设置远程库，找到Github Pages 点击Automatic page generator
-2、本地生成ssh并与仓库绑定 $ cd ~/.ssh #查看本机已存在的ssh 如果没有， ssh-keygen -t rsa -C ''邮件地址'' 3次回车， 生成一个ssh公钥，找到.ssh文件夹，记事本打开复制.pub文件内容 github-&amp;gt;设置-&amp;gt;ssh-&amp;gt;将公钥内容复制到key，title随便，保存 测试是否成功 $ ssh -T git@github.com #邮件地址不用改 输入yes，出现&amp;rsquo;&amp;lsquo;hi ***,You&amp;rsquo;re successfully~&amp;lsquo;&amp;lsquo;则配置成功
+2、本地生成ssh并与仓库绑定 $ cd ~/.ssh #查看本机已存在的ssh 如果没有， ssh-keygen -t rsa -C ''邮件地址'' 3次回车， 生成一个ssh公钥，找到.ssh文件夹，记事本打开复制.pub文件内容 github-&amp;gt;设置-&amp;gt;ssh-&amp;gt;将公钥内容复制到key，title随便，保存 测试是否成功 $ ssh -T git@github.com #邮件地址不用改 输入yes，出现'&amp;lsquo;hi ***,You're successfully~'&amp;lsquo;则配置成功
 配置 $ git config --global user.name ''github用户名''
 $ git config --global user.email ''邮箱''</description></item></channel></rss>
