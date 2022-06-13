@@ -2,7 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://weotr.github.io/categories/</loc>
+    <lastmod>2022-06-11T01:03:14-05:00</lastmod>
+  </url><url>
+    <loc>https://weotr.github.io/tags/hugo/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://weotr.github.io/p/hugo-obsidian/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://weotr.github.io/tags/obsidian/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://weotr.github.io/categories/obsidian/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://weotr.github.io/post/</loc>
@@ -11,8 +23,8 @@
     <loc>https://weotr.github.io/</loc>
     <lastmod>2022-06-11T01:03:14-05:00</lastmod>
   </url><url>
-    <loc>https://weotr.github.io/categories/</loc>
-    <lastmod>2022-06-11T01:03:14-05:00</lastmod>
+    <loc>https://weotr.github.io/tags/</loc>
+    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://weotr.github.io/categories/hugo/</loc>
     <lastmod>2022-06-11T01:03:14-05:00</lastmod>
@@ -24,9 +36,6 @@
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://weotr.github.io/p/win10%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86memo/</loc>
-    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://weotr.github.io/tags/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://weotr.github.io/tags/latex/</loc>
@@ -45,9 +54,6 @@
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://weotr.github.io/tags/vscode/</loc>
-    <lastmod>2022-05-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://weotr.github.io/tags/hugo/</loc>
     <lastmod>2022-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://weotr.github.io/p/hugo%E5%9F%BA%E7%A1%80/</loc>
