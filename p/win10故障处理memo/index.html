@@ -412,6 +412,18 @@ Materials Studios相关 键盘输入时页面卡死&amp;ndash;&amp;gt;微软拼�
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
         主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
     </section>
+
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+        <text class="poem_sentence"></text>
+        <text class="poem_info"></text>
+        <script type="text/javascript">
+        jinrishici.load(function(result) {
+            var sentence = document.querySelector(".poem_sentence")
+            var info = document.querySelector(".poem_info")
+            sentence.innerHTML = result.data.content
+            info.innerHTML = '——' + result.data.origin.author
+        });
+        </script>
 </footer>
 
 
