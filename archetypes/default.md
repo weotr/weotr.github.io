@@ -1,0 +1,14 @@
+---
+title: "{{ replace .Name "-" " " | title }}"
+description: 
+date: {{ .Date }}
+image: 
+math: 
+license: 
+hidden: false
+comments: true
+categories: ['']
+tags: ['']
+draft: true
+lastmod: '2022-05-18'
+---
