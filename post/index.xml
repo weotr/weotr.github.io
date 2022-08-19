@@ -22,8 +22,9 @@ git push
 iframe+obsidian在hugo中插入幕布 hugo不支持iframe嵌入，需要使用shortcode方式设置： [参考](https://github.com/ericswpark/hugo-iframe）
 {{/&amp;lt;/iframe url=&amp;quot;https://music.163.com/outchain/player?type=2&amp;amp;id=25638827&amp;amp;auto=1&amp;amp;height=66&amp;quot;&amp;gt;}}(前面两处斜杠防止被渲染)
 使用obsidian中convert url to iframe插件：Alt+I快捷键到网址上
-hugo脚本 $bash deploy.sh
-hugo+github pages/vercel 使用forestry在线发布</description></item><item><title>Hexo基础</title><link>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</link><pubDate>Tue, 19 Apr 2022 13:33:08 +0800</pubDate><guid>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</guid><description>· 相关工具 1、安装node.js 2、安装npm 3、安装git 4、检测安装成功 打开cmd命令行，分别执行，
+hugo本地发布脚本（自动部署后弃用） $bash deploy.sh
+hugo+github pages/vercel 2022-8 vercel已经挂了。。
+使用forestry在线发布 遇到的问题：forestry编辑内容无法更新到博客上，查看github仓库发现仓库内容已更新。猜想可能是hugo更新content内容后没有生成页面。</description></item><item><title>Hexo基础</title><link>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</link><pubDate>Tue, 19 Apr 2022 13:33:08 +0800</pubDate><guid>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</guid><description>· 相关工具 1、安装node.js 2、安装npm 3、安装git 4、检测安装成功 打开cmd命令行，分别执行，
 npm -v
 git --version 如果出现版本信息就安装成功
 5、安装hexo 打开cmd，执行
