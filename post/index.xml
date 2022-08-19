@@ -32,4 +32,5 @@ npm install hexo-cli -g
 创建之后，点setting设置远程库，找到Github Pages 点击Automatic page generator
 2、本地生成ssh并与仓库绑定 $ cd ~/.ssh #查看本机已存在的ssh 如果没有， ssh-keygen -t rsa -C ''邮件地址'' 3次回车， 生成一个ssh公钥，找到.ssh文件夹，记事本打开复制.pub文件内容 github-&amp;gt;设置-&amp;gt;ssh-&amp;gt;将公钥内容复制到key，title随便，保存 测试是否成功 $ ssh -T git@github.com #邮件地址不用改 输入yes，出现'&amp;lsquo;hi ***,You're successfully~'&amp;lsquo;则配置成功
 配置 $ git config --global user.name ''github用户名''
-$ git config --global user.email ''邮箱''</description></item><item><title>测试</title><link>https://weotr.github.io/p/%E6%B5%8B%E8%AF%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/p/%E6%B5%8B%E8%AF%95/</guid><description>测试</description></item></channel></rss>
+$ git config --global user.email ''邮箱''</description></item><item><title>测试</title><link>https://weotr.github.io/p/%E6%B5%8B%E8%AF%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/p/%E6%B5%8B%E8%AF%95/</guid><description>测试,
+如何？</description></item></channel></rss>
