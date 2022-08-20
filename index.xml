@@ -1,37 +1,209 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>weotr</title><link>https://weotr.github.io/</link><description>Recent content on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 19 Aug 2022 02:00:00 +0000</lastBuildDate><atom:link href="https://weotr.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>八月的一周</title><link>https://weotr.github.io/p/%E5%85%AB%E6%9C%88%E7%9A%84%E4%B8%80%E5%91%A8/</link><pubDate>Fri, 19 Aug 2022 02:00:00 +0000</pubDate><guid>https://weotr.github.io/p/%E5%85%AB%E6%9C%88%E7%9A%84%E4%B8%80%E5%91%A8/</guid><description> 看看这个家伙一周有多少废话。
-失衡时刻。怎么形容这种焦虑的感觉呢？就像心里有一团火🔥，煎熬着内心。
-时间飞一般流逝，把握不住，真让人无可奈何。我想建这样一个博客，记载自己的心情。不去随便宣泄情绪，而是就这样留下记录。</description></item><item><title>git基础操作</title><link>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</link><pubDate>Mon, 13 Jun 2022 14:50:32 +0800</pubDate><guid>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</guid><description>常用操作 本地修改后添加、提交、推送 git add . git commit -m 'xxx' git push (git push --set-upstream origin main仅第一次)
-切换账户 git config user.name git config user.email git config --global user.name &amp;quot;your_username git config user.email &amp;quot;your_email&amp;quot;
-仓库迁移(迁移一个分支到新仓库) 查看当前远程仓库 git remote -v 先保证本地代码是最新代码 $ git pull -r 修改远程仓库地址 $ git remote set-url origin https://github.com/xxx/box.git 推送代码到新仓库 $ git push -u origin master
-迁移全部代码,即所有分支及tag 克隆一个完整的项目到本地(包含所有分支及tag) $ git clone --mirror https://github.com/xxx/box.git 修改远程仓库地址 $ git remote set-url origin https://gitlab.com/qyf404/box.git 推送本地所有代码到远程 $ git push --mirror</description></item><item><title>Win10故障处理memo</title><link>https://weotr.github.io/p/win10%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86memo/</link><pubDate>Thu, 02 Jun 2022 17:11:34 +0800</pubDate><guid>https://weotr.github.io/p/win10%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86memo/</guid><description>sc config i8042prt start= disabled/auto禁用/开启笔记本键盘，重启生效
-Materials Studios相关 键盘输入时页面卡死&amp;ndash;&amp;gt;微软拼音打开兼容性设置</description></item><item><title>Markdown语法</title><link>https://weotr.github.io/p/markdown%E8%AF%AD%E6%B3%95/</link><pubDate>Tue, 17 May 2022 19:46:18 +0800</pubDate><guid>https://weotr.github.io/p/markdown%E8%AF%AD%E6%B3%95/</guid><description>直接看这篇教程，下边是我自己用vscode写markdown文件的一些留意事项
-markdown基本使用(vscode) 配合插件（vscode） Markdown Preview Enhanced Markdown TOC Excel to Markdown Paste Image 插入图片 使用paste image插件直接复制黏贴（不推荐） 这种方法插入的图片不能直接黏贴到博客页上，最好使用下面base64码转换的方法，可以任意复制黏贴全文 webp用格式工厂转换下（base64码好长一段，虽然能收起来，非必要不用） 把图片转换成base64代码 代码太长vscode中可使用折叠方案，用标签&amp;lt;!-- #region --&amp;gt;图片地址&amp;lt;!-- #endregion --&amp;gt;
-禅模式 更注重sematics 我要抄单词啦 crtl+i斜体；crtl+b加粗加黑
-公式 $$ 学一下Latex公式的使用 $$
-表格 电磁学 理论力学 量子力学 12 13 14 合格 良好 优秀 电磁学 理论力学 量子力学 12 13 14 合格 良好 优秀 （这里不知道为什么用Preview content渲染出的表格没有边框线qwq,hexo渲染raw部分没有对齐）</description></item><item><title>Hugo备忘录</title><link>https://weotr.github.io/p/hugo%E5%A4%87%E5%BF%98%E5%BD%95/</link><pubDate>Tue, 17 May 2022 19:37:00 +0800</pubDate><guid>https://weotr.github.io/p/hugo%E5%A4%87%E5%BF%98%E5%BD%95/</guid><description>常用命令 hugo new site &amp;quot;$mysite&amp;quot;创建新站点
-hugo version查看版本
-hugo env版本和环境详细信息
-hugo new post/index.md创建文章
-hugo编译生成静态文件,Hugo将编译所有文件并输出到public目录
-hugo server编译生成静态文件并启动web服务
-hugo+github手动推送流程 hugo生成静态文件，将public文件夹下内容复制到本地xxx.github.io文件夹下
-进入xxx.github.io文件夹下
-git add .提交全部内容到xxx.github.io文件夹下(注意空格)
-git commit -m '提交信息(必填)'
-git push
-iframe+obsidian在hugo中插入幕布 hugo不支持iframe嵌入，需要使用shortcode方式设置： [参考](https://github.com/ericswpark/hugo-iframe）
-{{/&amp;lt;/iframe url=&amp;quot;https://music.163.com/outchain/player?type=2&amp;amp;id=25638827&amp;amp;auto=1&amp;amp;height=66&amp;quot;&amp;gt;}}(前面两处斜杠防止被渲染)
-使用obsidian中convert url to iframe插件：Alt+I快捷键到网址上
-hugo本地发布脚本（自动部署后弃用） $bash deploy.sh
-hugo+github pages/vercel 2022-8 vercel已经挂了。。
-使用forestry在线发布 遇到的问题：forestry编辑内容无法更新到博客上，查看github仓库发现仓库内容已更新。猜想可能是hugo更新content内容后没有生成页面。</description></item><item><title>About me</title><link>https://weotr.github.io/about-me/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>https://weotr.github.io/about-me/</guid><description/></item><item><title>Hexo基础</title><link>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</link><pubDate>Tue, 19 Apr 2022 13:33:08 +0800</pubDate><guid>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</guid><description>· 相关工具 1、安装node.js 2、安装npm 3、安装git 4、检测安装成功 打开cmd命令行，分别执行，
-npm -v
-git --version 如果出现版本信息就安装成功
-5、安装hexo 打开cmd，执行
-npm install hexo-cli -g
-等待安装完成，输入 hexo -v 出现版本号则安装成功
-· 配置远程仓库 1、注册github账户，add a new repository 格式为&amp;quot;用户名.github.io&amp;rdquo;，此地址即为网站域名 pulic类型
-创建之后，点setting设置远程库，找到Github Pages 点击Automatic page generator
-2、本地生成ssh并与仓库绑定 $ cd ~/.ssh #查看本机已存在的ssh 如果没有， ssh-keygen -t rsa -C ''邮件地址'' 3次回车， 生成一个ssh公钥，找到.ssh文件夹，记事本打开复制.pub文件内容 github-&amp;gt;设置-&amp;gt;ssh-&amp;gt;将公钥内容复制到key，title随便，保存 测试是否成功 $ ssh -T git@github.com #邮件地址不用改 输入yes，出现'&amp;lsquo;hi ***,You're successfully~'&amp;lsquo;则配置成功
-配置 $ git config --global user.name ''github用户名''
-$ git config --global user.email ''邮箱''</description></item><item><title>Archives</title><link>https://weotr.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://weotr.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://weotr.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/links/</guid><description/></item><item><title>Search</title><link>https://weotr.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/search/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>weotr</title><link>https://weotr.github.io/</link><description>Recent content on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 19 Aug 2022 01:03:14 -0500</lastBuildDate><atom:link href="https://weotr.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>八月的一周</title><link>https://weotr.github.io/p/%E5%85%AB%E6%9C%88%E7%9A%84%E4%B8%80%E5%91%A8/</link><pubDate>Fri, 19 Aug 2022 02:00:00 +0000</pubDate><guid>https://weotr.github.io/p/%E5%85%AB%E6%9C%88%E7%9A%84%E4%B8%80%E5%91%A8/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>看看这个家伙一周有多少废话。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>失衡时刻。怎么形容这种焦虑的感觉呢？就像心里有一团火🔥，煎熬着内心。&lt;/p>
+&lt;p>时间飞一般流逝，把握不住，真让人无可奈何。我想建这样一个博客，记载自己的心情。不去随便宣泄情绪，而是就这样留下记录。&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>git基础操作</title><link>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</link><pubDate>Mon, 13 Jun 2022 14:50:32 +0800</pubDate><guid>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</guid><description>&lt;h3 id="常用操作">常用操作&lt;/h3>
+&lt;h5 id="本地修改后添加提交推送">本地修改后添加、提交、推送&lt;/h5>
+&lt;p>&lt;code>git add .&lt;/code>
+&lt;code>git commit -m 'xxx'&lt;/code>
+&lt;code>git push&lt;/code>
+(&lt;code>git push --set-upstream origin main&lt;/code>仅第一次)&lt;/p>
+&lt;h4 id="切换账户">切换账户&lt;/h4>
+&lt;p>&lt;code>git config user.name&lt;/code> &lt;code>git config user.email&lt;/code>
+&lt;code>git config --global user.name &amp;quot;your_username&lt;/code> &lt;code>git config user.email &amp;quot;your_email&amp;quot;&lt;/code>&lt;/p>
+&lt;h4 id="仓库迁移迁移一个分支到新仓库">仓库迁移(迁移一个分支到新仓库)&lt;/h4>
+&lt;p>查看当前远程仓库
+&lt;code>git remote -v&lt;/code>
+先保证本地代码是最新代码
+&lt;code>$ git pull -r&lt;/code>
+修改远程仓库地址
+&lt;code>$ git remote set-url origin https://github.com/xxx/box.git&lt;/code>
+推送代码到新仓库
+&lt;code>$ git push -u origin master&lt;/code>&lt;/p>
+&lt;h4 id="迁移全部代码即所有分支及tag">迁移全部代码,即所有分支及tag&lt;/h4>
+&lt;p>克隆一个完整的项目到本地(包含所有分支及tag)
+&lt;code>$ git clone --mirror https://github.com/xxx/box.git&lt;/code>
+修改远程仓库地址
+&lt;code>$ git remote set-url origin https://gitlab.com/qyf404/box.git&lt;/code>
+推送本地所有代码到远程
+&lt;code>$ git push --mirror&lt;/code>&lt;/p>
+&lt;h5 id="切换远程仓库">切换远程仓库&lt;/h5>
+&lt;p>&lt;code>git remote rm origin&lt;/code>
+&lt;code>git remote add origin url&lt;/code>&lt;/p>
+&lt;h3 id="常见报错">常见报错&lt;/h3>
+&lt;h5 id="heading">&lt;/h5>
+&lt;p>&lt;code>QRP@LAPTOP-6IBMM85V MINGW64 /e/Hugo/push_hugo (main) $ git push fatal: The current branch main has no upstream branch. To push the current branch and set the remote as upstream, use git push --set-upstream origin main QRP@LAPTOP-6IBMM85V MINGW64 /e/Hugo/push_hugo (main) $ git push --set-upstream origin main To github.com:weotr/weotr.github.io.git ! [rejected] main -&amp;gt; main (non-fast-forward) error: failed to push some refs to 'github.com:weotr/weotr.github.io.git' hint: Updates were rejected because the tip of your current branch is behind hint: its remote counterpart. Integrate the remote changes (e.g. hint: 'git pull ...') before pushing again. hint: See the 'Note about fast-forwards' in 'git push --help' for details.&lt;/code>
+debug:
+将要上传的本地库备份，另建一个空文件夹
+&lt;code>git clone url&lt;/code>整个项目
+&lt;code>git init&lt;/code>
+删掉远程仓库clone下来的内容,拖入备份文件
+&lt;code>git add .&lt;/code>
+&lt;code>git commit -m &amp;quot;提交信息&amp;quot;&lt;/code>
+&lt;code>git pull --mirror&lt;/code>&lt;/p></description></item><item><title>Win10故障处理memo</title><link>https://weotr.github.io/p/win10%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86memo/</link><pubDate>Thu, 02 Jun 2022 17:11:34 +0800</pubDate><guid>https://weotr.github.io/p/win10%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86memo/</guid><description>&lt;h3 id="heading">&lt;/h3>
+&lt;p>&lt;code>sc config i8042prt start= disabled/auto&lt;/code>禁用/开启笔记本键盘，重启生效&lt;/p>
+&lt;h3 id="materials-studios相关">Materials Studios相关&lt;/h3>
+&lt;p>键盘输入时页面卡死&amp;ndash;&amp;gt;微软拼音打开兼容性设置&lt;/p></description></item><item><title>Markdown语法</title><link>https://weotr.github.io/p/markdown%E8%AF%AD%E6%B3%95/</link><pubDate>Tue, 17 May 2022 19:46:18 +0800</pubDate><guid>https://weotr.github.io/p/markdown%E8%AF%AD%E6%B3%95/</guid><description>&lt;p>直接看&lt;a class="link" href="https://kz16.top/md/" target="_blank" rel="noopener"
+>这篇教程&lt;/a>，下边是我自己用vscode写markdown文件的一些留意事项&lt;/p>
+&lt;h2 id="markdown基本使用vscode">markdown基本使用(vscode)&lt;/h2>
+&lt;h3 id="配合插件vscode">配合插件（vscode）&lt;/h3>
+&lt;ul>
+&lt;li>Markdown Preview Enhanced&lt;/li>
+&lt;li>Markdown TOC&lt;/li>
+&lt;li>Excel to Markdown&lt;/li>
+&lt;li>Paste Image&lt;/li>
+&lt;/ul>
+&lt;h3 id="插入图片">插入图片&lt;/h3>
+&lt;ul>
+&lt;li>使用paste image插件直接复制黏贴（不推荐）&lt;/li>
+&lt;/ul>
+&lt;p>这种方法插入的图片不能直接黏贴到博客页上，最好使用下面base64码转换的方法，可以任意复制黏贴全文
+&lt;em>webp用格式工厂转换下&lt;/em>（base64码好长一段，虽然能收起来，非必要不用）
+&lt;a class="link" href="http://www.jsons.cn/img2base64/" target="_blank" rel="noopener"
+>把图片转换成base64代码&lt;/a>
+代码太长vscode中可使用折叠方案，用标签&lt;code>&amp;lt;!-- #region --&amp;gt;图片地址&amp;lt;!-- #endregion --&amp;gt;&lt;/code>&lt;/p>
+&lt;h3 id="禅模式-更注重sematics">禅模式 更注重sematics&lt;/h3>
+&lt;p>&lt;strong>我要抄单词啦&lt;/strong> crtl+i斜体；crtl+b加粗加黑&lt;/p>
+&lt;h3 id="公式">公式&lt;/h3>
+&lt;p>$$
+&lt;a class="link" href="https://blog.csdn.net/fengxinlinux/article/details/86547402" target="_blank" rel="noopener"
+>学一下Latex公式的使用&lt;/a>
+$$&lt;/p>
+&lt;h3 id="表格">表格&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>电磁学&lt;/th>
+&lt;th>理论力学&lt;/th>
+&lt;th>量子力学&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>13&lt;/td>
+&lt;td>14&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>合格&lt;/td>
+&lt;td>良好&lt;/td>
+&lt;td>优秀&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>电磁学&lt;/th>
+&lt;th>理论力学&lt;/th>
+&lt;th>量子力学&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>13&lt;/td>
+&lt;td>14&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>合格&lt;/td>
+&lt;td>良好&lt;/td>
+&lt;td>优秀&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>（这里不知道为什么用Preview content渲染出的表格没有边框线qwq,hexo渲染raw部分没有对齐）&lt;/p>
+&lt;h3 id="链接">链接&lt;/h3>
+&lt;p>这是一个&lt;a class="link" href="https://www.baidu.com/?tn=49055317_hao_pg" target="_blank" rel="noopener"
+>链接&lt;/a>
+复制链接，crtl+v到相应的文字上&lt;/p>
+&lt;h3 id="输出为pdf">输出为pdf&lt;/h3>
+&lt;p>在Preview content中右击，选择Open in Browser,crtl+P&lt;/p>
+&lt;h3 id="添加代码块">添加代码块&lt;/h3>
+&lt;p>用```加代码表示
+用hexo写博客，建议用下边这种。
+{% codeblock %}
+{% endcodeblock %}&lt;/p>
+&lt;p>参考教程：&lt;a class="link" href="" >markdown终极教程&lt;/a>&lt;/p></description></item><item><title>Hugo备忘录</title><link>https://weotr.github.io/p/hugo%E5%A4%87%E5%BF%98%E5%BD%95/</link><pubDate>Tue, 17 May 2022 19:37:00 +0800</pubDate><guid>https://weotr.github.io/p/hugo%E5%A4%87%E5%BF%98%E5%BD%95/</guid><description>&lt;h2 id="常用命令">常用命令&lt;/h2>
+&lt;p>&lt;code>hugo new site &amp;quot;$mysite&amp;quot;&lt;/code>创建新站点&lt;/p>
+&lt;p>&lt;code>hugo version&lt;/code>查看版本&lt;/p>
+&lt;p>&lt;code>hugo env&lt;/code>版本和环境详细信息&lt;/p>
+&lt;p>&lt;code>hugo new post/index.md&lt;/code>创建文章&lt;/p>
+&lt;p>&lt;code>hugo&lt;/code>编译生成静态文件,Hugo将编译所有文件并输出到public目录&lt;/p>
+&lt;p>&lt;code>hugo server&lt;/code>编译生成静态文件并启动web服务&lt;/p>
+&lt;h2 id="hugogithub手动推送流程">hugo+github手动推送流程&lt;/h2>
+&lt;p>&lt;code>hugo&lt;/code>生成静态文件，将public文件夹下内容复制到本地xxx.github.io文件夹下&lt;/p>
+&lt;p>进入xxx.github.io文件夹下&lt;/p>
+&lt;p>&lt;code>git add .&lt;/code>提交全部内容到xxx.github.io文件夹下(注意空格)&lt;/p>
+&lt;p>&lt;code>git commit -m '提交信息(必填)'&lt;/code>&lt;/p>
+&lt;p>&lt;code>git push&lt;/code>&lt;/p>
+&lt;h2 id="iframeobsidian在hugo中插入幕布">iframe+obsidian在hugo中插入幕布&lt;/h2>
+&lt;p>hugo不支持iframe嵌入，需要使用shortcode方式设置：
+[参考](&lt;a class="link" href="https://github.com/ericswpark/hugo-iframe" target="_blank" rel="noopener"
+>https://github.com/ericswpark/hugo-iframe&lt;/a>）&lt;/p>
+&lt;p>&lt;code>{{/&amp;lt;/iframe url=&amp;quot;https://music.163.com/outchain/player?type=2&amp;amp;id=25638827&amp;amp;auto=1&amp;amp;height=66&amp;quot;&amp;gt;}}&lt;/code>(前面两处斜杠防止被渲染)&lt;/p>
+&lt;p>使用obsidian中convert url to iframe插件：&lt;code>Alt+I&lt;/code>快捷键到网址上&lt;/p>
+&lt;h2 id="hugo本地发布脚本自动部署后弃用">hugo本地发布脚本（自动部署后弃用）&lt;/h2>
+&lt;p>&lt;code>$bash deploy.sh&lt;/code>&lt;/p>
+&lt;h2 id="hugogithub-pagesvercel">hugo+github pages/vercel&lt;/h2>
+&lt;p>2022-8 vercel已经挂了。。&lt;/p>
+&lt;h2 id="使用forestry在线发布">使用forestry在线发布&lt;/h2>
+&lt;p>遇到的问题：forestry编辑内容无法更新到博客上，查看github仓库发现仓库内容已更新。猜想可能是hugo更新content内容后没有生成页面。&lt;/p></description></item><item><title>About me</title><link>https://weotr.github.io/about-me/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>https://weotr.github.io/about-me/</guid><description/></item><item><title>Hexo基础</title><link>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</link><pubDate>Tue, 19 Apr 2022 13:33:08 +0800</pubDate><guid>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</guid><description>&lt;h3 id="-相关工具">· 相关工具&lt;/h3>
+&lt;h5 id="1安装nodejs">1、安装node.js&lt;/h5>
+&lt;h5 id="2安装npm">2、安装npm&lt;/h5>
+&lt;h5 id="3安装git">3、安装git&lt;/h5>
+&lt;h5 id="4检测安装成功">4、检测安装成功&lt;/h5>
+&lt;p>打开cmd命令行，分别执行，&lt;/p>
+&lt;p>&lt;code>npm -v&lt;/code>&lt;/p>
+&lt;p>&lt;code>git --version&lt;/code>
+如果出现版本信息就安装成功&lt;/p>
+&lt;h5 id="5安装hexo">5、安装hexo&lt;/h5>
+&lt;p>打开cmd，执行&lt;/p>
+&lt;p>&lt;code>npm install hexo-cli -g&lt;/code>&lt;/p>
+&lt;p>等待安装完成，输入
+&lt;code>hexo -v&lt;/code>
+出现版本号则安装成功&lt;/p>
+&lt;h3 id="-配置远程仓库">· 配置远程仓库&lt;/h3>
+&lt;h5 id="1注册github账户add-a-new-repository">1、注册github账户，add a new repository&lt;/h5>
+&lt;p>格式为&amp;quot;用户名.github.io&amp;quot;，此地址即为网站域名
+pulic类型&lt;/p>
+&lt;p>创建之后，点setting设置远程库，找到Github Pages 点击Automatic page generator&lt;/p>
+&lt;h5 id="2本地生成ssh并与仓库绑定">2、本地生成ssh并与仓库绑定&lt;/h5>
+&lt;p>&lt;code>$ cd ~/.ssh #查看本机已存在的ssh&lt;/code>
+如果没有，
+&lt;code>ssh-keygen -t rsa -C ''邮件地址''&lt;/code>
+3次回车，
+生成一个ssh公钥，找到.ssh文件夹，记事本打开复制.pub文件内容
+github-&amp;gt;设置-&amp;gt;ssh-&amp;gt;将公钥内容复制到key，title随便，保存
+测试是否成功
+&lt;code>$ ssh -T git@github.com #邮件地址不用改&lt;/code>
+输入yes，出现'&amp;lsquo;hi ***,You&amp;rsquo;re successfully~&amp;lsquo;&amp;lsquo;则配置成功&lt;/p>
+&lt;p>配置
+&lt;code>$ git config --global user.name ''github用户名''&lt;/code>&lt;/p>
+&lt;p>&lt;code>$ git config --global user.email ''邮箱''&lt;/code>&lt;/p>
+&lt;p>附：git其他操作（跳过）
+&lt;code>git add&lt;/code>
+&lt;code>git conmmit -m '提交信息'&lt;/code>
+&lt;code>git checkout -b hexo&lt;/code>创建并切换到新分支hexo，默认的master用来部署更新项目
+&lt;code>git push origin hexo&lt;/code>提交后到github把hexo分支设置默认&lt;/p>
+&lt;h3 id="--将hexo模板放到github">· 将hexo模板放到github&lt;/h3>
+&lt;p>创建一个文件夹用于存放hexo，进入此文件夹右键git bush here
+使用
+&lt;code>$ npm install hexo --save&lt;/code>
+&lt;code>$ hexo init&lt;/code>
+&lt;code>$ npm install&lt;/code>
+&lt;code>$ hexo g&lt;/code>
+&lt;code>$ hexo s&lt;/code>打开http://localhost:4000即可看到内容
+修改_config.yml&lt;/p>
+&lt;p>langurage: ZH-hans
+deploy:
+type: git
+repo: github上仓库ssh的链接
+branch：main&lt;/p>
+&lt;p>&lt;code>$ npm install hexo-deployer-git -save&lt;/code> 安装远程部署插件&lt;/p>
+&lt;p>&lt;code>$ hexo clean&lt;/code> 清除public及_deploy缓存文件&lt;/p>
+&lt;p>&lt;code>$ hexo d -g&lt;/code> 生成静态页面并部署到GitHub&lt;/p></description></item><item><title>Archives</title><link>https://weotr.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://weotr.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://weotr.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/links/</guid><description/></item><item><title>Search</title><link>https://weotr.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/search/</guid><description/></item></channel></rss>
