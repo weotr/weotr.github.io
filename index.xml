@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>weotr</title><link>https://weotr.github.io/</link><description>Recent content on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 19 Aug 2022 01:03:14 -0500</lastBuildDate><atom:link href="https://weotr.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>八月的一周</title><link>https://weotr.github.io/p/%E5%85%AB%E6%9C%88%E7%9A%84%E4%B8%80%E5%91%A8/</link><pubDate>Fri, 19 Aug 2022 02:00:00 +0000</pubDate><guid>https://weotr.github.io/p/%E5%85%AB%E6%9C%88%E7%9A%84%E4%B8%80%E5%91%A8/</guid><description>&lt;ul>
-&lt;li>
-&lt;p>看看这个家伙一周有多少废话。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>失衡时刻。怎么形容这种焦虑的感觉呢？就像心里有一团火🔥，煎熬着内心。&lt;/p>
-&lt;p>时间飞一般流逝，把握不住，真让人无可奈何。我想建这样一个博客，记载自己的心情。不去随便宣泄情绪，而是就这样留下记录。&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;img src="https://weotr.github.io/uploads/slap_1year08day.gif"
-loading="lazy"
->&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>git基础操作</title><link>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</link><pubDate>Mon, 13 Jun 2022 14:50:32 +0800</pubDate><guid>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</guid><description>&lt;h3 id="常用操作">常用操作&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>weotr</title><link>https://weotr.github.io/</link><description>Recent content on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Fri, 19 Aug 2022 01:03:14 -0500</lastBuildDate><atom:link href="https://weotr.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>git基础操作</title><link>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</link><pubDate>Mon, 13 Jun 2022 14:50:32 +0800</pubDate><guid>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</guid><description>&lt;h3 id="常用操作">常用操作&lt;/h3>
 &lt;h5 id="本地修改后添加提交推送">本地修改后添加、提交、推送&lt;/h5>
 &lt;p>&lt;code>git add .&lt;/code>
 &lt;code>git commit -m 'xxx'&lt;/code>
