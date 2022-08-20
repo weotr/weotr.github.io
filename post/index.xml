@@ -6,11 +6,7 @@
 &lt;p>失衡时刻。怎么形容这种焦虑的感觉呢？就像心里有一团火🔥，煎熬着内心。&lt;/p>
 &lt;p>时间飞一般流逝，把握不住，真让人无可奈何。我想建这样一个博客，记载自己的心情。不去随便宣泄情绪，而是就这样留下记录。&lt;/p>
 &lt;/li>
-&lt;li>
-&lt;p>&lt;img src="https://weotr.github.io/uploads/v2-82e34ec0814dee10d115d3cd32b397b6_r.jpg"
-loading="lazy"
->&lt;/p>
-&lt;/li>
+&lt;li>&lt;/li>
 &lt;/ul></description></item><item><title>git基础操作</title><link>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</link><pubDate>Mon, 13 Jun 2022 14:50:32 +0800</pubDate><guid>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</guid><description>&lt;h3 id="常用操作">常用操作&lt;/h3>
 &lt;h5 id="本地修改后添加提交推送">本地修改后添加、提交、推送&lt;/h5>
 &lt;p>&lt;code>git add .&lt;/code>
