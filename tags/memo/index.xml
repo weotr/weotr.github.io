@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>memo on weotr</title><link>https://weotr.github.io/tags/memo/</link><description>Recent content in memo on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Thu, 02 Jun 2022 17:11:34 +0800</lastBuildDate><atom:link href="https://weotr.github.io/tags/memo/index.xml" rel="self" type="application/rss+xml"/><item><title>Win10故障处理memo</title><link>https://weotr.github.io/p/win10%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86memo/</link><pubDate>Thu, 02 Jun 2022 17:11:34 +0800</pubDate><guid>https://weotr.github.io/p/win10%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86memo/</guid><description>&lt;h3 id="heading">&lt;/h3>
-&lt;p>&lt;code>sc config i8042prt start= disabled/auto&lt;/code>禁用/开启笔记本键盘，重启生效&lt;/p>
-&lt;h3 id="materials-studios相关">Materials Studios相关&lt;/h3>
-&lt;p>键盘输入时页面卡死&amp;ndash;&amp;gt;微软拼音打开兼容性设置&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>memo on weotr</title>
+        <link>https://weotr.github.io/tags/memo/</link>
+        <description>Recent content in memo on weotr</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-US</language>
+        <lastBuildDate>Thu, 02 Jun 2022 17:11:34 +0800</lastBuildDate><atom:link href="https://weotr.github.io/tags/memo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Win10故障处理memo</title>
+        <link>https://weotr.github.io/p/win10%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86memo/</link>
+        <pubDate>Thu, 02 Jun 2022 17:11:34 +0800</pubDate>
+        
+        <guid>https://weotr.github.io/p/win10%E6%95%85%E9%9A%9C%E5%A4%84%E7%90%86memo/</guid>
+        <description>&lt;h3 id=&#34;heading&#34;&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sc config i8042prt start= disabled/auto&lt;/code&gt;禁用/开启笔记本键盘，重启生效&lt;/p&gt;
+&lt;h3 id=&#34;materials-studios相关&#34;&gt;Materials Studios相关&lt;/h3&gt;
+&lt;p&gt;键盘输入时页面卡死&amp;ndash;&amp;gt;微软拼音打开兼容性设置&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
