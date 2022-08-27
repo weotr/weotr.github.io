@@ -198,4 +198,9 @@ repo: github上仓库ssh的链接
 branch：main&lt;/p>
 &lt;p>&lt;code>$ npm install hexo-deployer-git -save&lt;/code> 安装远程部署插件&lt;/p>
 &lt;p>&lt;code>$ hexo clean&lt;/code> 清除public及_deploy缓存文件&lt;/p>
-&lt;p>&lt;code>$ hexo d -g&lt;/code> 生成静态页面并部署到GitHub&lt;/p></description></item></channel></rss>
+&lt;p>&lt;code>$ hexo d -g&lt;/code> 生成静态页面并部署到GitHub&lt;/p></description></item><item><title>第33周</title><link>https://weotr.github.io/p/%E7%AC%AC33%E5%91%A8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/p/%E7%AC%AC33%E5%91%A8/</guid><description>&lt;p>一些重要的事：&lt;/p>
+&lt;ul>
+&lt;li>下午某些时段以及晚上很容易学不进去，这样太危险了，最近下午or晚上先不要带任何设备到图书馆了。上午精神力强，不会去干没用的事情，就在上午看视频。等过一段时间回复常态了，把数学的时间再放到上午，毕竟考研数学就在上午嘛。&lt;/li>
+&lt;li>还有一个改动，为了防止出现意外，早上起来，立即出动，就算太早图书馆没有开馆，在餐厅可以看会儿视频课或背单词，请君务必坚持如此照做。&lt;/li>
+&lt;li>freebrowser不知安全性如何，目前可以实现不用科学谷歌。&lt;/li>
+&lt;/ul></description></item></channel></rss>
