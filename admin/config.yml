@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: weotr/push_hugo # Path to your Github repository
   branch: main # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
@@ -44,3 +45,4 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      
