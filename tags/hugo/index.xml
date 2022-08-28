@@ -21,5 +21,7 @@
 &lt;p>&lt;code>$bash deploy.sh&lt;/code>&lt;/p>
 &lt;h2 id="hugogithub-pagesvercel">hugo+github pages/vercel&lt;/h2>
 &lt;p>2022-8 vercel已经挂了。。&lt;/p>
-&lt;h2 id="使用forestry在线发布">使用forestry在线发布&lt;/h2>
-&lt;p>遇到的问题：forestry编辑内容无法更新到博客上，查看github仓库发现仓库内容已更新。猜想可能是hugo更新content内容后没有生成页面。&lt;/p></description></item></channel></rss>
+&lt;h2 id="hugoforestry">hugo+forestry&lt;/h2>
+&lt;p>1、好用的快捷键：分割线，代码块。
+富文本与markdown编辑切换。&lt;/p>
+&lt;p>2、repo 已更新，forestry没有显示，dashboard中setting再import一次。&lt;/p></description></item></channel></rss>
