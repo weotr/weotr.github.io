@@ -20,16 +20,43 @@
 &lt;h2 id="hugo本地发布脚本自动部署后弃用">hugo本地发布脚本（自动部署后弃用）&lt;/h2>
 &lt;p>&lt;code>$bash deploy.sh&lt;/code>&lt;/p>
 &lt;h2 id="hugogithub-pagesvercel">hugo+github pages/vercel&lt;/h2>
-&lt;p>2022-8 vercel已经挂了。。&lt;/p>
 &lt;h2 id="hugoforestry">hugo+forestry&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>some command&lt;/p>
-&lt;p>|in Rich text| markdown|&lt;/p>
-&lt;p>|&lt;code>--- //富文本分割线&lt;/code> | *** |&lt;/p>
-&lt;p>|&lt;code>crtl 0 //代码&lt;/code> |``|&lt;br>
-|&lt;code>crtl shift 0 //代码块（长代码）&lt;/code> |略|&lt;/p>
-&lt;p>|&lt;code>shift+enter //换行&lt;/code>|略|&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>commad&lt;/th>
+&lt;th>Rich text&lt;/th>
+&lt;th>markdown&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>分割线&lt;/td>
+&lt;td>&amp;mdash;&lt;/td>
+&lt;td>***&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>行内&lt;/td>
+&lt;td>crtl 0&lt;/td>
+&lt;td>``&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>区块&lt;/td>
+&lt;td>crtl shift 0&lt;/td>
+&lt;td>略&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>换行&lt;/td>
+&lt;td>shift+enter&lt;/td>
+&lt;td>略&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;/li>
-&lt;/ul>
-&lt;p>2、repo 已更新，forestry没有显示，dashboard中setting再import一次。&lt;/p></description></item></channel></rss>
+&lt;li>
+&lt;p>repo 已更新，forestry没有显示，dashboard中setting再import一次。&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
