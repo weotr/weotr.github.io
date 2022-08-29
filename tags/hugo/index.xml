@@ -21,11 +21,9 @@
 &lt;p>&lt;code>$bash deploy.sh&lt;/code>&lt;/p>
 &lt;h2 id="hugogithub-pagesvercel">hugo+github pages/vercel&lt;/h2>
 &lt;h2 id="hugoforestry">hugo+forestry&lt;/h2>
-&lt;blockquote>
-&lt;p>netlify csm对中文的支持不如forestry。故弃用。&lt;/p>
-&lt;/blockquote>
 &lt;ul>
-&lt;li>some command
+&lt;li>
+&lt;p>some command&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -58,6 +56,7 @@
 &lt;/tbody>
 &lt;/table>
 &lt;/li>
-&lt;li>repo 已更新，但forestry没有显示，dashboard中setting再import一次。&lt;/li>
-&lt;/ul>
-&lt;p>\lamda&lt;/p></description></item></channel></rss>
+&lt;li>
+&lt;p>repo 已更新，forestry没有显示，dashboard中setting再import一次。&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
