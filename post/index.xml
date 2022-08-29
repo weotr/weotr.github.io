@@ -138,9 +138,11 @@ $$&lt;/p>
 &lt;p>&lt;code>$bash deploy.sh&lt;/code>&lt;/p>
 &lt;h2 id="hugogithub-pagesvercel">hugo+github pages/vercel&lt;/h2>
 &lt;h2 id="hugoforestry">hugo+forestry&lt;/h2>
+&lt;blockquote>
+&lt;p>netlify csm对中文的支持不如forestry。故弃用。&lt;/p>
+&lt;/blockquote>
 &lt;ul>
-&lt;li>
-&lt;p>some command&lt;/p>
+&lt;li>some command
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -173,9 +175,7 @@ $$&lt;/p>
 &lt;/tbody>
 &lt;/table>
 &lt;/li>
-&lt;li>
-&lt;p>repo 已更新，forestry没有显示，dashboard中setting再import一次。&lt;/p>
-&lt;/li>
+&lt;li>repo 已更新，但forestry没有显示，dashboard中setting再import一次。&lt;/li>
 &lt;/ul></description></item><item><title>Hexo基础</title><link>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</link><pubDate>Tue, 19 Apr 2022 13:33:08 +0800</pubDate><guid>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</guid><description>&lt;h3 id="-相关工具">· 相关工具&lt;/h3>
 &lt;h5 id="1安装nodejs">1、安装node.js&lt;/h5>
 &lt;h5 id="2安装npm">2、安装npm&lt;/h5>
