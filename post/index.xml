@@ -1,46 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on weotr</title><link>https://weotr.github.io/post/</link><description>Recent content in Posts on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Mon, 13 Jun 2022 14:50:32 +0800</lastBuildDate><atom:link href="https://weotr.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>git基础操作</title><link>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</link><pubDate>Mon, 13 Jun 2022 14:50:32 +0800</pubDate><guid>https://weotr.github.io/p/git%E5%9F%BA%E7%A1%80%E6%93%8D%E4%BD%9C/</guid><description>&lt;h3 id="常用操作">常用操作&lt;/h3>
-&lt;h5 id="本地修改后添加提交推送">本地修改后添加、提交、推送&lt;/h5>
-&lt;p>&lt;code>git add .&lt;/code>
-&lt;code>git commit -m 'xxx'&lt;/code>
-&lt;code>git push&lt;/code>
-(&lt;code>git push --set-upstream origin main&lt;/code>仅第一次)&lt;/p>
-&lt;h4 id="切换账户">切换账户&lt;/h4>
-&lt;p>&lt;code>git config user.name&lt;/code> &lt;code>git config user.email&lt;/code>
-&lt;code>git config --global user.name &amp;quot;your_username&lt;/code> &lt;code>git config user.email &amp;quot;your_email&amp;quot;&lt;/code>&lt;/p>
-&lt;h4 id="仓库迁移迁移一个分支到新仓库">仓库迁移(迁移一个分支到新仓库)&lt;/h4>
-&lt;p>查看当前远程仓库
-&lt;code>git remote -v&lt;/code>
-先保证本地代码是最新代码
-&lt;code>$ git pull -r&lt;/code>
-修改远程仓库地址
-&lt;code>$ git remote set-url origin https://github.com/xxx/box.git&lt;/code>
-推送代码到新仓库
-&lt;code>$ git push -u origin master&lt;/code>&lt;/p>
-&lt;h4 id="迁移全部代码即所有分支及tag">迁移全部代码,即所有分支及tag&lt;/h4>
-&lt;p>克隆一个完整的项目到本地(包含所有分支及tag)
-&lt;code>$ git clone --mirror https://github.com/xxx/box.git&lt;/code>
-修改远程仓库地址
-&lt;code>$ git remote set-url origin https://gitlab.com/qyf404/box.git&lt;/code>
-推送本地所有代码到远程
-&lt;code>$ git push --mirror&lt;/code>&lt;/p>
-&lt;h5 id="切换远程仓库">切换远程仓库&lt;/h5>
-&lt;pre>&lt;code>git remote rm origin git remote add origin url
-&lt;/code>&lt;/pre>
-&lt;h5 id="恢复某一版本">恢复某一版本&lt;/h5>
-&lt;p>&lt;code>git log //查看提交信息&lt;/code>
-&lt;code>git reset --hard 版本号&lt;/code>
-&lt;code>git push -f //强行推送&lt;/code>&lt;/p>
-&lt;h3 id="常见报错">常见报错&lt;/h3>
-&lt;p>&lt;code>QRP@LAPTOP-6IBMM85V MINGW64 /e/Hugo/push_hugo (main) $ git push fatal: The current branch main has no upstream branch. To push the current branch and set the remote as upstream, use git push --set-upstream origin main QRP@LAPTOP-6IBMM85V MINGW64 /e/Hugo/push_hugo (main) $ git push --set-upstream origin main To github.com:weotr/weotr.github.io.git ! [rejected] main -&amp;gt; main (non-fast-forward) error: failed to push some refs to 'github.com:weotr/weotr.github.io.git' hint: Updates were rejected because the tip of your current branch is behind hint: its remote counterpart. Integrate the remote changes (e.g. hint: 'git pull ...') before pushing again. hint: See the 'Note about fast-forwards' in 'git push --help' for details.&lt;/code> debug: 将要上传的本地库备份，另建一个空文件夹 &lt;code>git clone url&lt;/code>整个项目 &lt;code>git init&lt;/code> 删掉远程仓库clone下来的内容,拖入备份文件 &lt;code>git add .&lt;/code> &lt;code>git commit -m &amp;quot;提交信息&amp;quot;&lt;/code> &lt;code>git pull --mirror&lt;/code>&lt;/p>
-&lt;p>在新的电脑上连接git仓库，
-1、会先显示文件权限不够，根据提示输入
-&lt;code>git config --global --add safe.directory pull&lt;/code>
-2、接着git pull,会报错
-&lt;code>Please make sure you have the correct access rights and the repository exists&lt;/code>
-解决办法，重新生成公钥，添加到github ssh key
-参考：https://www.cnblogs.com/x991788x/p/14975061.html&lt;/p>
-&lt;p>git如何运行sh脚本
-$sh xxx.sh&lt;/p></description></item><item><title>Hugo备忘录</title><link>https://weotr.github.io/p/hugo%E5%A4%87%E5%BF%98%E5%BD%95/</link><pubDate>Tue, 17 May 2022 19:37:00 +0800</pubDate><guid>https://weotr.github.io/p/hugo%E5%A4%87%E5%BF%98%E5%BD%95/</guid><description>&lt;h2 id="常用命令">常用命令&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on weotr</title><link>https://weotr.github.io/post/</link><description>Recent content in Posts on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 17 May 2022 19:37:00 +0800</lastBuildDate><atom:link href="https://weotr.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo备忘录</title><link>https://weotr.github.io/p/hugo%E5%A4%87%E5%BF%98%E5%BD%95/</link><pubDate>Tue, 17 May 2022 19:37:00 +0800</pubDate><guid>https://weotr.github.io/p/hugo%E5%A4%87%E5%BF%98%E5%BD%95/</guid><description>&lt;h2 id="常用命令">常用命令&lt;/h2>
 &lt;p>&lt;code>hugo new site &amp;quot;$mysite&amp;quot;&lt;/code>创建新站点&lt;/p>
 &lt;p>&lt;code>hugo version&lt;/code>查看版本&lt;/p>
 &lt;p>&lt;code>hugo env&lt;/code>版本和环境详细信息&lt;/p>
