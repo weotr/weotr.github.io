@@ -59,8 +59,7 @@
 &lt;/table>
 &lt;/li>
 &lt;li>repo 已更新，但forestry没有显示，dashboard中setting再import一次。&lt;/li>
-&lt;/ul>
-&lt;p>测试&lt;/p></description></item><item><title/><link>https://weotr.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/p/</guid><description>&lt;p>安装gui记录
+&lt;/ul></description></item><item><title/><link>https://weotr.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/p/</guid><description>&lt;p>安装gui记录
 sudo apt update &amp;amp;&amp;amp; sudo apt upgrade //更新
 sudo apt install -y xfce4 xrdp
 sudo vim /etc/xrdp/xrdp.ini //我没跟着修改
