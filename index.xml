@@ -59,7 +59,24 @@
 &lt;/table>
 &lt;/li>
 &lt;li>repo 已更新，但forestry没有显示，dashboard中setting再import一次。&lt;/li>
-&lt;/ul></description></item><item><title>About me</title><link>https://weotr.github.io/about-me/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>https://weotr.github.io/about-me/</guid><description/></item><item><title>Archives</title><link>https://weotr.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://weotr.github.io/archives/</guid><description/></item><item><title>Search</title><link>https://weotr.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/search/</guid><description/></item><item><title>导航</title><link>https://weotr.github.io/%E5%AF%BC%E8%88%AA/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/%E5%AF%BC%E8%88%AA/</guid><description>&lt;h3 id="news">news&lt;/h3>
+&lt;/ul></description></item><item><title>About me</title><link>https://weotr.github.io/about-me/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>https://weotr.github.io/about-me/</guid><description/></item><item><title>Archives</title><link>https://weotr.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://weotr.github.io/archives/</guid><description/></item><item><title/><link>https://weotr.github.io/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/p/</guid><description>&lt;p>安装gui记录
+sudo apt update &amp;amp;&amp;amp; sudo apt upgrade //更新
+sudo apt install -y xfce4 xrdp
+sudo vim /etc/xrdp/xrdp.ini //我没跟着修改
+echo xfce4-session &amp;gt; ~/.xsession
+sudo vim /etc/xrdp/startwm.sh/ //up主1
+vim ~/.xsession //up主2 以上两步我没改，两个up主的方法有区别
+sudo /etc/init.d/xrdp start //启动
+ip -a //查看ip
+打开远程桌面连接，输入用户名，密码&lt;/p>
+&lt;p>###设置root密码
+sudo passwd root&lt;/p>
+&lt;p>###语言支持项
+&lt;a class="link" href="https://github.com/microsoft/wslg/issues/99" target="_blank" rel="noopener"
+>https://github.com/microsoft/wslg/issues/99&lt;/a>&lt;/p>
+&lt;h3 id="heading">&lt;/h3>
+&lt;p>&lt;a class="link" href="https://www.jianshu.com/p/429b8f75af2c" target="_blank" rel="noopener"
+>https://www.jianshu.com/p/429b8f75af2c&lt;/a>&lt;/p></description></item><item><title>Search</title><link>https://weotr.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/search/</guid><description/></item><item><title>导航</title><link>https://weotr.github.io/%E5%AF%BC%E8%88%AA/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/%E5%AF%BC%E8%88%AA/</guid><description>&lt;h3 id="news">news&lt;/h3>
 &lt;div style="position: relative; padding: 30% 45%;">
 &lt;iframe style="position:absolute;width:100%;height:100%;left:0;top:0;" src="https://www.youtube.com/embed/videoseries?list=PL0eGJygpmOH5xQuy8fpaOvKrenoCsWrKh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
 &lt;/div>
