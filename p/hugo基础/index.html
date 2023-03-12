@@ -1,14 +1,14 @@
 <!doctype html><html lang=en-us dir=ltr>
 <head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content><title>About me</title>
-<link rel=canonical href=https://weotr.github.io/about-me/>
-<link rel=stylesheet href=/scss/style.min.450926226e724574a6b936335ea06111f8aeb253d932c86cb2cc807341cd2889.css><meta property="og:title" content="About me">
-<meta property="og:description" content>
-<meta property="og:url" content="https://weotr.github.io/about-me/">
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="记录使用hugo的过程"><title>hugo基础</title>
+<link rel=canonical href=https://weotr.github.io/p/hugo%E5%9F%BA%E7%A1%80/>
+<link rel=stylesheet href=/scss/style.min.450926226e724574a6b936335ea06111f8aeb253d932c86cb2cc807341cd2889.css><meta property="og:title" content="hugo基础">
+<meta property="og:description" content="记录使用hugo的过程">
+<meta property="og:url" content="https://weotr.github.io/p/hugo%E5%9F%BA%E7%A1%80/">
 <meta property="og:site_name" content="weotr">
-<meta property="og:type" content="article"><meta property="article:section" content="Page"><meta property="article:published_time" content="2022-05-16T00:00:00+00:00"><meta property="article:modified_time" content="2023-03-12T11:52:14+00:00">
-<meta name=twitter:title content="About me">
-<meta name=twitter:description content>
+<meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="hugo"><meta property="article:published_time" content="2023-03-12T00:00:00+00:00"><meta property="article:modified_time" content="2023-03-12T11:52:14+00:00">
+<meta name=twitter:title content="hugo基础">
+<meta name=twitter:description content="记录使用hugo的过程">
 </head>
 <body class=article-page>
 <script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
@@ -44,7 +44,7 @@
 <span>主页</span>
 </a>
 </li>
-<li class=current>
+<li>
 <a href=/about-me/><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg>
 <span>关于我</span>
 </a>
@@ -80,28 +80,100 @@
 <article class=main-article>
 <header class=article-header>
 <div class=article-details>
+<header class=article-category>
+<a href=/categories/hugo/>
+hugo
+</a>
+</header>
 <div class=article-title-wrapper>
 <h2 class=article-title>
-<a href=/about-me/>About me</a>
+<a href=/p/hugo%E5%9F%BA%E7%A1%80/>hugo基础</a>
 </h2>
+<h3 class=article-subtitle>
+记录使用hugo的过程
+</h3>
 </div>
 <footer class=article-time>
 <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
-<time class=article-time--published>May 16, 2022</time>
+<time class=article-time--published>Mar 12, 2023</time>
 </div>
 <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <time class=article-time--reading>
-阅读时长: 0 分钟
+阅读时长: 1 分钟
 </time>
 </div>
 </footer>
 </div>
 </header>
 <section class=article-content>
+<h2 id=常用命令>常用命令</h2>
+<p><code>hugo new site "$mysite"</code>创建新站点</p>
+<p><code>hugo version</code>查看版本</p>
+<p><code>hugo env</code>版本和环境详细信息</p>
+<p><code>hugo new post/index.md</code>创建文章</p>
+<p><code>hugo</code>编译生成静态文件,Hugo将编译所有文件并输出到public目录</p>
+<p><code>hugo server</code>编译生成静态文件并启动web服务</p>
+<h2 id=hugogithub手动推送流程>hugo+github手动推送流程</h2>
+<p><code>hugo</code>生成静态文件，将public文件夹下内容复制到本地xxx.github.io文件夹下</p>
+<p>进入xxx.github.io文件夹下</p>
+<p><code>git add .</code>提交全部内容到xxx.github.io文件夹下(注意空格)</p>
+<p><code>git commit -m '提交信息(必填)'</code></p>
+<p><code>git push</code></p>
+<h2 id=iframeobsidian在hugo中插入幕布>iframe+obsidian在hugo中插入幕布</h2>
+<p>hugo不支持iframe嵌入，需要使用shortcode方式设置：
+[参考](<a class=link href=https://github.com/ericswpark/hugo-iframe target=_blank rel=noopener>https://github.com/ericswpark/hugo-iframe</a>）</p>
+<p><code>{{/&lt;/iframe url="https://music.163.com/outchain/player?type=2&id=25638827&auto=1&height=66">}}</code>(前面两处斜杠防止被渲染)</p>
+<p>使用obsidian中convert url to iframe插件：<code>Alt+I</code>快捷键到网址上</p>
+<h2 id=hugo本地发布脚本自动部署后弃用>hugo本地发布脚本（自动部署后弃用）</h2>
+<p><code>$bash deploy.sh</code></p>
+<h2 id=hugogithub-pagesvercel>hugo+github pages/vercel</h2>
+<h2 id=hugoforestry>hugo+forestry</h2>
+<blockquote>
+<p>netlify csm对中文的支持不如forestry。故弃用。</p>
+</blockquote>
+<ul>
+<li>some command
+<div class=table-wrapper><table>
+<thead>
+<tr>
+<th>commad</th>
+<th>Rich text</th>
+<th>markdown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>分割线</td>
+<td>&mdash;</td>
+<td>***</td>
+</tr>
+<tr>
+<td>行内</td>
+<td>crtl 0</td>
+<td>``</td>
+</tr>
+<tr>
+<td>区块</td>
+<td>crtl shift 0</td>
+<td>略</td>
+</tr>
+<tr>
+<td>换行</td>
+<td>shift+enter</td>
+<td>略</td>
+</tr>
+</tbody>
+</table></div>
+</li>
+<li>repo 已更新，但forestry没有显示，dashboard中setting再import一次。</li>
+</ul>
 </section>
 <footer class=article-footer>
+<section class=article-tags>
+<a href=/tags/hugo/>hugo</a>
+</section>
 <section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
-<span>CC BY-NC-ND</span>
+<span>Licensed under CC BY-NC-SA 4.0</span>
 </section>
 <section class=article-lastmod><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <span>
@@ -162,6 +234,29 @@ Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
 </div>
 </div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous>
 </main>
+<aside class="sidebar right-sidebar sticky">
+<section class="widget archives">
+<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+</div>
+<h2 class="widget-title section-title">目录</h2>
+<div class=widget--toc>
+<nav id=TableOfContents>
+<ol>
+<li>
+<ol>
+<li><a href=#常用命令>常用命令</a></li>
+<li><a href=#hugogithub手动推送流程>hugo+github手动推送流程</a></li>
+<li><a href=#iframeobsidian在hugo中插入幕布>iframe+obsidian在hugo中插入幕布</a></li>
+<li><a href=#hugo本地发布脚本自动部署后弃用>hugo本地发布脚本（自动部署后弃用）</a></li>
+<li><a href=#hugogithub-pagesvercel>hugo+github pages/vercel</a></li>
+<li><a href=#hugoforestry>hugo+forestry</a></li>
+</ol>
+</li>
+</ol>
+</nav>
+</div>
+</section>
+</aside>
 </div>
 <script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.js defer></script>
 <script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
