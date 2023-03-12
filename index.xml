@@ -53,9 +53,6 @@ branch：main&lt;/p>
 &lt;p>&lt;code>$ npm install hexo-deployer-git -save&lt;/code> 安装远程部署插件&lt;/p>
 &lt;p>&lt;code>$ hexo clean&lt;/code> 清除public及_deploy缓存文件&lt;/p>
 &lt;p>&lt;code>$ hexo d -g&lt;/code> 生成静态页面并部署到GitHub&lt;/p>
-&lt;p>&lt;img src="https://weotr.github.io/img/lufei.png"
-loading="lazy"
->&lt;/p>
-&lt;p>&lt;img src="https://weotr.github.io/assets/img/1.png"
+&lt;p>&lt;img src="https://weotr.github.io/images/lufei.png"
 loading="lazy"
 >&lt;/p></description></item><item><title>About me</title><link>https://weotr.github.io/about-me/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>https://weotr.github.io/about-me/</guid><description/></item><item><title>Archives</title><link>https://weotr.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://weotr.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://weotr.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/links/</guid><description/></item><item><title>Search</title><link>https://weotr.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/search/</guid><description/></item></channel></rss>

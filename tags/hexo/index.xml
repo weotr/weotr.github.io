@@ -53,9 +53,6 @@ branch：main&lt;/p>
 &lt;p>&lt;code>$ npm install hexo-deployer-git -save&lt;/code> 安装远程部署插件&lt;/p>
 &lt;p>&lt;code>$ hexo clean&lt;/code> 清除public及_deploy缓存文件&lt;/p>
 &lt;p>&lt;code>$ hexo d -g&lt;/code> 生成静态页面并部署到GitHub&lt;/p>
-&lt;p>&lt;img src="https://weotr.github.io/img/lufei.png"
-loading="lazy"
->&lt;/p>
-&lt;p>&lt;img src="https://weotr.github.io/assets/img/1.png"
+&lt;p>&lt;img src="https://weotr.github.io/images/lufei.png"
 loading="lazy"
 >&lt;/p></description></item></channel></rss>
