@@ -18,7 +18,7 @@ npm install hexo-cli -g
 创建之后，点setting设置远程库，找到Github Pages 点击Automatic page generator
 2、本地生成ssh并与仓库绑定 $ cd ~/.ssh #查看本机已存在的ssh 如果没有， ssh-keygen -t rsa -C ''邮件地址'' 3次回车， 生成一个ssh公钥，找到.ssh文件夹，记事本打开复制.pub文件内容 github-&amp;gt;设置-&amp;gt;ssh-&amp;gt;将公钥内容复制到key，title随便，保存 测试是否成功 $ ssh -T git@github.com #邮件地址不用改 输入yes，出现&amp;rsquo;&amp;lsquo;hi ***,You&amp;rsquo;re successfully~&amp;lsquo;&amp;lsquo;则配置成功
 配置 $ git config --global user.name ''github用户名''
-$ git config --global user.email ''邮箱''"><meta property="og:url" content="https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/"><meta property="og:site_name" content="weotr"><meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="hexo"><meta property="article:published_time" content="2023-03-12T00:00:00+00:00"><meta property="article:modified_time" content="2024-06-14T15:36:12+00:00"><meta name=twitter:title content="hexo基础"><meta name=twitter:description content="· 相关工具 1、安装node.js 2、安装npm 3、安装git 4、检测安装成功 打开cmd命令行，分别执行，
+$ git config --global user.email ''邮箱''"><meta property="og:url" content="https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/"><meta property="og:site_name" content="weotr"><meta property="og:type" content="article"><meta property="article:section" content="Post"><meta property="article:tag" content="hexo"><meta property="article:published_time" content="2023-03-12T00:00:00+00:00"><meta property="article:modified_time" content="2024-06-14T15:36:54+00:00"><meta name=twitter:title content="hexo基础"><meta name=twitter:description content="· 相关工具 1、安装node.js 2、安装npm 3、安装git 4、检测安装成功 打开cmd命令行，分别执行，
 npm -v
 git --version 如果出现版本信息就安装成功
 5、安装hexo 打开cmd，执行
