@@ -1,73 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>weotr</title><link>https://weotr.github.io/</link><description>Recent content on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://weotr.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Learning English week1</title><link>https://weotr.github.io/p/learning-english-week1/</link><pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate><guid>https://weotr.github.io/p/learning-english-week1/</guid><description>&lt;h3 id="2023-04-07">2023-04-07&lt;/h3>
-&lt;p>&lt;code>{/{/&amp;lt; bbc src=&amp;quot;http://www.bbc.co.uk/programmes/p0f72chj/player&amp;quot; &amp;gt;}}&lt;/code> &lt;br>
-&lt;a class="link" href="https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2023/ep-230330" target="_blank" rel="noopener"
->BBC Learning English - 6 Minute English / Do you get jealous easily?&lt;/a>&lt;br>
-Notes:
-motive of murder 谋杀动机&lt;br>
-clinical 诊所的&lt;br>
-horrid 引起反感的，可怕的&lt;br>
-monitor 监控&lt;br>
-obsessive-compulsive disorder 强迫症&lt;br>
-harmonise 和谐，协调&lt;br>
-recap 翻新，扼要重述&lt;br>
-the green-eyed monster: (British English) from Othello 绿眼怪&lt;br>
-jealousy: jealousy involved three people, but envy involved two&lt;br>
-envy：wanting to have the possessions or qualities that someone else has&lt;br>
-significant other: wife, husband or other romantic partner who you are in a long-term relationship with&lt;br>
-flirting: behaving as if you are sexually attracted to someone but playfully rather than with serious intentions&lt;br>
-pill： medicine in the form of small tablet which you swallow&lt;br>
-cognitive behavioural therapy (CBT)： type of therapy which helps people deal with their emotional and behavioural problems by changing the way they think about them 认知行为疗法&lt;/p></description></item><item><title>hexo基础</title><link>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</link><pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate><guid>https://weotr.github.io/p/hexo%E5%9F%BA%E7%A1%80/</guid><description>&lt;h3 id="-相关工具">· 相关工具&lt;/h3>
-&lt;h5 id="1安装nodejs">1、安装node.js&lt;/h5>
-&lt;h5 id="2安装npm">2、安装npm&lt;/h5>
-&lt;h5 id="3安装git">3、安装git&lt;/h5>
-&lt;h5 id="4检测安装成功">4、检测安装成功&lt;/h5>
-&lt;p>打开cmd命令行，分别执行，&lt;/p>
-&lt;p>&lt;code>npm -v&lt;/code>&lt;/p>
-&lt;p>&lt;code>git --version&lt;/code>
-如果出现版本信息就安装成功&lt;/p>
-&lt;h5 id="5安装hexo">5、安装hexo&lt;/h5>
-&lt;p>打开cmd，执行&lt;/p>
-&lt;p>&lt;code>npm install hexo-cli -g&lt;/code>&lt;/p>
-&lt;p>等待安装完成，输入
-&lt;code>hexo -v&lt;/code>
-出现版本号则安装成功&lt;/p>
-&lt;h3 id="-配置远程仓库">· 配置远程仓库&lt;/h3>
-&lt;h5 id="1注册github账户add-a-new-repository">1、注册github账户，add a new repository&lt;/h5>
-&lt;p>格式为&amp;quot;用户名.github.io&amp;quot;，此地址即为网站域名
-pulic类型&lt;/p>
-&lt;p>创建之后，点setting设置远程库，找到Github Pages 点击Automatic page generator&lt;/p>
-&lt;h5 id="2本地生成ssh并与仓库绑定">2、本地生成ssh并与仓库绑定&lt;/h5>
-&lt;p>&lt;code>$ cd ~/.ssh #查看本机已存在的ssh&lt;/code>
-如果没有，
-&lt;code>ssh-keygen -t rsa -C ''邮件地址''&lt;/code>
-3次回车，
-生成一个ssh公钥，找到.ssh文件夹，记事本打开复制.pub文件内容
-github-&amp;gt;设置-&amp;gt;ssh-&amp;gt;将公钥内容复制到key，title随便，保存
-测试是否成功
-&lt;code>$ ssh -T git@github.com #邮件地址不用改&lt;/code>
-输入yes，出现&amp;rsquo;&amp;lsquo;hi ***,You&amp;rsquo;re successfully~&amp;lsquo;&amp;lsquo;则配置成功&lt;/p>
-&lt;p>配置
-&lt;code>$ git config --global user.name ''github用户名''&lt;/code>&lt;/p>
-&lt;p>&lt;code>$ git config --global user.email ''邮箱''&lt;/code>&lt;/p>
-&lt;p>附：git其他操作（跳过）
-&lt;code>git add&lt;/code>
-&lt;code>git conmmit -m '提交信息'&lt;/code>
-&lt;code>git checkout -b hexo&lt;/code>创建并切换到新分支hexo，默认的master用来部署更新项目
-&lt;code>git push origin hexo&lt;/code>提交后到github把hexo分支设置默认&lt;/p>
-&lt;h3 id="--将hexo模板放到github">· 将hexo模板放到github&lt;/h3>
-&lt;p>创建一个文件夹用于存放hexo，进入此文件夹右键git bush here
-使用
-&lt;code>$ npm install hexo --save&lt;/code>
-&lt;code>$ hexo init&lt;/code>
-&lt;code>$ npm install&lt;/code>
-&lt;code>$ hexo g&lt;/code>
-&lt;code>$ hexo s&lt;/code>打开http://localhost:4000即可看到内容
-修改_config.yml&lt;/p>
-&lt;p>langurage: ZH-hans
-deploy:
-type: git
-repo: github上仓库ssh的链接
-branch：main&lt;/p>
-&lt;p>&lt;code>$ npm install hexo-deployer-git -save&lt;/code> 安装远程部署插件&lt;/p>
-&lt;p>&lt;code>$ hexo clean&lt;/code> 清除public及_deploy缓存文件&lt;/p>
-&lt;p>&lt;code>$ hexo d -g&lt;/code> 生成静态页面并部署到GitHub&lt;/p></description></item><item><title>About me</title><link>https://weotr.github.io/about-me/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>https://weotr.github.io/about-me/</guid><description/></item><item><title>Archives</title><link>https://weotr.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://weotr.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://weotr.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/links/</guid><description/></item><item><title>Search</title><link>https://weotr.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/search/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>weotr</title><link>https://weotr.github.io/</link><description>Recent content on weotr</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://weotr.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>开启周记</title><link>https://weotr.github.io/p/%E5%BC%80%E5%90%AF%E5%91%A8%E8%AE%B0/</link><pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate><guid>https://weotr.github.io/p/%E5%BC%80%E5%90%AF%E5%91%A8%E8%AE%B0/</guid><description>&lt;p>PeiLing, Happy Birthday to You!
+希望我们永远是朋友。&lt;/p>
+&lt;p>炸个烟花！&lt;/p>
+&lt;p>生日快乐，我的朋友！
+&lt;img src="https://weotr.oss-cn-beijing.aliyuncs.com/img/20240628235740.png"
+loading="lazy"
+alt="image.png"
+>
+![[image-20240628235740963.png]]&lt;/p></description></item><item><title>About me</title><link>https://weotr.github.io/about-me/</link><pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate><guid>https://weotr.github.io/about-me/</guid><description/></item><item><title>Archives</title><link>https://weotr.github.io/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://weotr.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://weotr.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/links/</guid><description/></item><item><title>Search</title><link>https://weotr.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://weotr.github.io/search/</guid><description/></item></channel></rss>
